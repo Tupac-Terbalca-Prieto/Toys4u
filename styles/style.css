@@ -13,6 +13,7 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 5px;
     font-size: 120px;
+    transition: all 1s;
 }
 
 header {
@@ -42,6 +43,11 @@ header {
     flex-flow: row;
     justify-content: space-evenly;
     width: 550px;
+    position: relative; top: 20px;
+}
+
+.navegation:hover{
+    font-size: 30px;
 }
 
 #video-games {
@@ -191,12 +197,17 @@ position: relative; top: -254px;
 
     /* Media Querie: HEADER */
 
+    .navegation:hover{
+        font-size: 15px;
+    }
+
     .bar{
         display:none
     }
 
     .titulo{
         font-size: 80px;
+        transition: none;
     }
 
     .logo{
