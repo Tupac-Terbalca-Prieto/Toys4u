@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+.carousel-mobile{
+    display: none;
+}
+
 /* Header */
 
 .titulo {
@@ -222,6 +226,7 @@ position: relative; top: -40px;
         max-width: 80px;
         justify-content: space-between;
         gap: 35px;
+        position: relative; right: 30px
     }
 
     header{
@@ -229,7 +234,7 @@ position: relative; top: -40px;
     }
 
     .carrito{
-        position: absolute; top: 115px; right: 100px;
+        position: absolute; top: 150px; right: 100px;
         font-size: 20px;
     }
 
@@ -238,10 +243,19 @@ position: relative; top: -40px;
     }
 
     .index-mobile{
-        display: block;
         width: 304px;
+        display: block;
     }
 
+    /* Media Querie: Index */
+
+    .carousel {
+        display: none;
+    }
+
+    .most-sold {
+        display: none;
+    }
 
     /* Media Querie: FOOTER */
 
@@ -267,7 +281,7 @@ position: relative; top: -40px;
     .links {
         font-size: 7px;
         width: 47px;
-        position: relative; left: 10px;
+        position: relative; left: 20px;
     }
 
     .companie-images{
@@ -283,7 +297,7 @@ position: relative; top: -40px;
     }
 
     .social-media{
-        position: relative; right: 10px;
+        position: relative; right: 23px;
     }
 
     }
@@ -304,3 +318,4 @@ position: relative; top: -40px;
         position: absolute; top: 451px; left: 180px;
         width: 174px;
     }
+
