@@ -1,0 +1,27 @@
+main{
+    .table {
+        width: 400px;
+        height: 1220px;
+        background-color: #5555ec;
+    }
+    
+    section{
+        div{
+            
+            .container {
+                position: absolute;
+                top: 342px;
+                right: -247px; 
+                max-width: 1750px;
+                padding: 50px;
+                background-color: #04c404; 
+                
+                .products-images {
+                    height: 500px;
+                    max-width: 400px;
+                    margin: 30px; 
+                }
+            }
+        }
+    }
+}

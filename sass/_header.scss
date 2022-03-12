@@ -1,0 +1,67 @@
+header {
+    background-image: linear-gradient(#fd251e, #860000);
+    display: grid;
+    flex-direction: column;
+    justify-content: left; 
+    nav {
+        word-spacing: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 40px;
+        font-size: 20px;
+        letter-spacing: 3px;
+        position: relative;
+        top: -10px;
+        font-size: x-large;
+        ul {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-evenly;
+            width: 550px;
+            position: relative;
+            top: 20px;
+            align-items: center;
+            white-space: nowrap;
+            li {
+                padding: 3%;
+                #video-games{
+                    word-spacing: 0px;
+                }
+            }
+            li:hover{
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none; }
+
+.navegation:hover {
+    font-size: 30px; }
+
+    .contact {
+        font-size: 20px;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        position: relative; left: 1250px; top: -235px;
+        }
+
+    .titulo {
+        color: white;
+        font-style: italic;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        letter-spacing: 5px;
+        font-size: 120px;
+        transition: all 1s; 
+        .logo {
+            max-width: 60px;
+            max-height: 60px; }}
+
+    .bar {
+        position: absolute;
+        top: 110px;
+        right: 50px; }

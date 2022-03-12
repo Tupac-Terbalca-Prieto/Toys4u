@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none; }
+  
+    @import "header";
+    @import "main-index";
+    @import "footer";
+    @import "main-products";
+    @import "contact";
+    @import "media-index";
+    @import "media-header";
+    @import "media-footer";
+  
+  /* Media Queries footer/header MOBILE*/
+  @media (max-width: 320px) {
+    .footer__bottom {
+      font-size: 5px; }
+    .social-media {
+      position: relative;
+      right: 23px; }}

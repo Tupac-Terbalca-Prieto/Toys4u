@@ -1,0 +1,18 @@
+@media (max-width: 320px){
+
+
+
+    .index-main{
+        background-image: url(../images/Index-backround-mobile.png);
+        background-position: cover;
+        height: 430px;
+        
+        .carousel {
+            display: none; 
+        }
+        .most-sold {
+            display: none; 
+        }
+        
+    }
+}
