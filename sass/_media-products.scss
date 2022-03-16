@@ -1,0 +1,40 @@
+@media (max-width: 320px){
+
+    $container-height:800px;
+
+    .products-main{
+    
+        .table {
+            width: $table-width*.3;
+            max-height: $container-height;
+            div{
+                ul{
+                    .list-group{
+                        position: relative; right: 15px; top: 15px;
+                        font-size: 10px
+                    }
+                }
+            }
+        }
+        
+        section{
+            margin: 5px;
+            div{
+                
+                .container {
+                    max-width: $container-width*.2;
+                    max-height: $container-height;
+                    padding: 10px;
+                    
+                    .products-images {
+                        height: $images-height*.2;
+                        max-width: $images-width*.2;
+                        margin: 30px; 
+                    }
+                }
+            }
+        }
+    }
+    
+}
+

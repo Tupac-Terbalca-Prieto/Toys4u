@@ -2,7 +2,6 @@ header {
     background-image: linear-gradient(#fd251e, #860000);
     display: grid;
     flex-direction: column;
-    justify-content: left; 
     nav {
         word-spacing: 50px;
         font-family: Arial, Helvetica, sans-serif;
@@ -12,6 +11,7 @@ header {
         position: relative;
         top: -10px;
         font-size: x-large;
+        
         ul {
             display: flex;
             flex-flow: row;
@@ -21,12 +21,14 @@ header {
             top: 20px;
             align-items: center;
             white-space: nowrap;
+            
             li {
                 padding: 3%;
                 #video-games{
                     word-spacing: 0px;
                 }
             }
+            
             li:hover{
                 font-size: 25px;
             }
@@ -51,7 +53,7 @@ a {
         }
 
     .titulo {
-        color: white;
+        @extend a ;
         font-style: italic;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         letter-spacing: 5px;

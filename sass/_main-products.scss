@@ -1,27 +1,48 @@
-main{
+$table-width: 400px;
+$table-height: 1220px;
+
+$container-width: 1750px;
+
+$images-height:500px;
+$images-width:350px;
+
+.products-main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
     .table {
-        width: 400px;
-        height: 1220px;
+        width: $table-width;
+        height: $table-height;
         background-color: #5555ec;
+        position: cover;
+        div{
+            ul{
+                display: flex;
+                flex-direction: column;
+                .list-group{
+                    width: 100%;
+                    position: relative; right: 15px; top: 15px;
+                }
+            }
+        }
     }
     
     section{
+        margin: 20px;
         div{
             
             .container {
-                position: absolute;
-                top: 342px;
-                right: -247px; 
-                max-width: 1750px;
+                max-width: $container-width;
                 padding: 50px;
-                background-color: #04c404; 
+                background-color: #04c404;
                 
                 .products-images {
-                    height: 500px;
-                    max-width: 400px;
+                    height: $images-height;
+                    max-width: $images-width;
                     margin: 30px; 
                 }
             }
         }
     }
 }
+

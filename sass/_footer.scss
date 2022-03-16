@@ -45,3 +45,17 @@ footer {
         }
     }
 }
+
+
+$redes:(
+    Twitter: rgb(0, 247, 255),
+    Facebook: blue,
+    Instagram: #FF00FF,
+    Youtube: red
+    );
+
+    @each $red, $color in $redes{
+        .social-media-links#{$red}{
+            color: $color;
+        }
+    }
