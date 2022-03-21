@@ -79,6 +79,9 @@ a, .titulo {
   top: 468px;
   right: 48px; }
 
+.carousel-mobile {
+  display: none; }
+
 .most-sold {
   position: absolute;
   top: 455px;
@@ -121,18 +124,6 @@ footer {
         padding: 50px 0px;
         display: flex;
         flex-direction: column; }
-
-.social-media-linksTwitter {
-  color: #00f7ff; }
-
-.social-media-linksFacebook {
-  color: blue; }
-
-.social-media-linksInstagram {
-  color: #FF00FF; }
-
-.social-media-linksYoutube {
-  color: red; }
 
 .products-main {
   display: grid;
@@ -185,10 +176,19 @@ div.form {
     background-image: url(../images/Index-backround-mobile.png);
     background-position: cover;
     height: 430px; }
-    .index-main .carousel {
+    .index-main .carousel-PC {
       display: none; }
+    .index-main .carousel-mobile {
+      display: block;
+      width: 38%;
+      position: relative;
+      top: 21%;
+      left: 61%; }
     .index-main .most-sold {
-      display: none; } }
+      width: 35%;
+      position: absolute;
+      left: 14px;
+      top: 290px; } }
 
 @media (max-width: 320px) {
   header {

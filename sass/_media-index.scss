@@ -7,11 +7,19 @@
         background-position: cover;
         height: 430px;
         
-        .carousel {
+        .carousel-PC {
             display: none; 
         }
+        
+        .carousel-mobile{
+            display: block;
+            width: 38%;
+            position: relative; top: 21%; left: 61%;
+        } 
+
         .most-sold {
-            display: none; 
+            width: 35%;
+            position: absolute; left: 14px; top: 290px;
         }
         
     }
