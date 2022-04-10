@@ -1,0 +1,128 @@
+/*header*/
+
+header {
+    background-image: linear-gradient(#fd251e, #860000);
+    display: grid;
+    flex-direction: column;
+    nav {
+        word-spacing: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 40px;
+        font-size: 20px;
+        letter-spacing: 3px;
+        position: relative;
+        top: -10px;
+        font-size: x-large;
+        
+        ul {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-evenly;
+            width: 550px;
+            position: relative;
+            top: 20px;
+            align-items: center;
+            white-space: nowrap;
+            
+            li {
+                padding: 3%;
+                #video-games{
+                    word-spacing: 0px;
+                }
+            }
+            
+            li:hover{
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none; }
+
+.navegation:hover {
+    font-size: 30px; }
+
+    .contact {
+        font-size: 20px;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        position: relative; left: 1250px; top: -235px;
+        }
+
+    .titulo {
+        @extend a ;
+        font-style: italic;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        letter-spacing: 5px;
+        font-size: 120px;
+        transition: all 1s; 
+        .logo {
+            max-width: 60px;
+            max-height: 60px; }}
+
+    .bar {
+        position: absolute;
+        top: 110px;
+        right: 50px; }
+
+/* footer */
+        footer {
+            background-image: linear-gradient(#860000, #bd0600);
+            color: #d3d3d3;
+            border: 2px solid black; 
+        
+            .footer__content {
+                display: grid;
+                justify-content: space-around;
+                grid-auto-flow: column; 
+                
+                .links {
+                    font-family: Arial, Helvetica, sans-serif;
+                    padding: 50px 0px;
+                    display: flex;
+                    flex-direction: column; }
+        
+                .social-media {
+                    text-align: right;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    position: relative;
+                    top: 25px; }
+        
+                .footer__section {
+                    font-size: 20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 20px; 
+                
+                    .companie {
+                        max-width: 130px;
+                        margin: 40px;
+                        opacity: 0.3; }
+        
+                    .images {
+                        max-width: 30px;
+                        max-height: 20px; }
+        
+                .links {
+                    font-family: Arial, Helvetica, sans-serif;
+                    padding: 50px 0px;
+                    display: flex;
+                    flex-direction: column; }
+                
+                }
+            }
+        }
+        
+        
+        $redes:(
+            Twitter: rgb(0, 247, 255),
+            Facebook: blue,
+            Instagram: #FF00FF,
+            Youtube: red
+            );

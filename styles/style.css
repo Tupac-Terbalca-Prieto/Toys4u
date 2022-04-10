@@ -271,3 +271,9 @@ div.form {
         height: 100px;
         max-width: 70px;
         margin: 30px; } }
+        
+    html, body 
+    { 
+        height: 100%;
+        overflow-x: hidden
+    }
